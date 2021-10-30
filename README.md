@@ -17,7 +17,7 @@ git clone https://github.com/Balint197/DeepDriveDucks
 
 cd DeepDriveDucks
 
-pip3 innstall tensorboard
+pip3 install tensorboard
 
 python -m learning.train
 
