@@ -6,12 +6,19 @@ Deep learning a gyakorlatban 2021
 Install: 
 
 git clone https://github.com/duckietown/gym-duckietown.git
+
 cd gym-duckietown/
+
 pip3 install -e .
+
 cd ..
+
 git clone https://github.com/Balint197/DeepDriveDucks
+
 cd DeepDriveDucks
+
 pip3 innstall tensorboard
+
 python -m learning.train
 
 ---------------------------------------------------------------------
