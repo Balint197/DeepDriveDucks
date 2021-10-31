@@ -55,7 +55,7 @@ stop the running docker container:
 TRY OUR TRAINING:
 
 test the original dagger training:
-`xvfb-run -a -s "-screen 0 1400x900x24" python3 -m notebook`
+`xvfb-run -a -s "-screen 0 1400x900x24" python3 -m challenge-aido_LF-baseline-dagger-pytorch.learning.train`
 
 test our method with raytune included:
 `xvfb-run -a -s "-screen 0 1400x900x24" python3 -m DeepDriveDucks.train_ray_tune`
