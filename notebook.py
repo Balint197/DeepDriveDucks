@@ -1,5 +1,5 @@
 # virtual display setup
-pip install pyvirtualdisplay
+!pip install pyvirtualdisplay
 
 from pyvirtualdisplay import Display
 import numpy as np
