@@ -54,7 +54,9 @@ stop the running docker container:
 
 TRY OUR TRAINING:
 
-run the following for test training:
+test the original dagger training:
+`xvfb-run -a -s "-screen 0 1400x900x24" python3 -m notebook`
+test our method with raytune included:
 `xvfb-run -a -s "-screen 0 1400x900x24" python3 -m DeepDriveDucks.train_ray_tune`
 
 ---------------------------------------------------------------------
