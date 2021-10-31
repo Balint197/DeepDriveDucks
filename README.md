@@ -31,21 +31,21 @@ stop the running docker container:
 
 ### MANUAL METHOD:
 
-`git clone https://github.com/duckietown/gym-duckietown.git
+`git clone https://github.com/duckietown/gym-duckietown.git`
 
-cd gym-duckietown/
+`cd gym-duckietown/`
 
-pip3 install -e .
+`pip3 install -e .`
 
-cd ..
+`cd ..`
 
-git clone https://github.com/Balint197/DeepDriveDucks
+`git clone https://github.com/Balint197/DeepDriveDucks`
 
-cd DeepDriveDucks
+`cd DeepDriveDucks`
 
-pip3 install tensorboard
+`pip3 install tensorboard`
 
-python -m learning.train`
+`python -m learning.train`
 
 
 
