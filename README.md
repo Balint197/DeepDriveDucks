@@ -25,13 +25,13 @@ python -m learning.train
 DOCKER METHOD:
 
 if you dont have nvidia support, use 'docker' instead 'nvidia-docker':
-nvidia-docker pull artot/duckietown_dagger_10_30
+`nvidia-docker pull artot/deepdriveducks`
 
 check the pulled image:
 `nvidia-docker images`
 
 start a container:
-`nvidia-docker run -t -d artot/duckietown_dagger_10_30:latest`  
+`nvidia-docker run -t -d artot/deepdriveducks`  
 
 check running containers:
 `nvidia-docker container ls`
@@ -45,7 +45,7 @@ detach without stopping container:
 `press Ctrl+P then Ctrl+Q`
 
 stop the running docker container:
-`nvidia-docker stop artot/duckietown_dagger_10_30:latest`
+`nvidia-docker stop <your_container_id>`
 
 
 
