@@ -51,7 +51,8 @@ stop the running docker container:
 
 ### TRY OUR TRAINING:
 
-run the following for test training:
+
+ run the following for test training:
 `xvfb-run -a -s "-screen 0 1400x900x24" python3 -m train_ray_tune`
 ---------------------------------------------------------------------
 
