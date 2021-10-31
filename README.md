@@ -49,7 +49,6 @@ detach without stopping container:
 stop the running docker container:
 `nvidia-docker stop <your_container_id>`
 
-
 ### TRY OUR TRAINING:
 
 run the following for test training:
