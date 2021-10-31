@@ -25,10 +25,10 @@ python -m learning.train
 ### DOCKER METHOD:
 
 if you dont have nvidia support, use `docker` instead `nvidia-docker`!
-__
+
 pull our docker image:
 `nvidia-docker pull artot/deepdriveducks`
-__
+
 check the pulled image:
 `nvidia-docker images`
 __
@@ -56,6 +56,7 @@ TRY OUR TRAINING:
 
 test the original dagger training:
 `xvfb-run -a -s "-screen 0 1400x900x24" python3 -m notebook`
+
 test our method with raytune included:
 `xvfb-run -a -s "-screen 0 1400x900x24" python3 -m DeepDriveDucks.train_ray_tune`
 
