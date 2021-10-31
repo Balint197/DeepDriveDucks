@@ -2,26 +2,6 @@
 Deep learning a gyakorlatban 2021
 
 ---------------------------------------------------------------------
-
-Install: 
-
-git clone https://github.com/duckietown/gym-duckietown.git
-
-cd gym-duckietown/
-
-pip3 install -e .
-
-cd ..
-
-git clone https://github.com/Balint197/DeepDriveDucks
-
-cd DeepDriveDucks
-
-pip3 install tensorboard
-
-python -m learning.train
-
-
 ### DOCKER METHOD:
 
 if you dont have nvidia support, use `docker` instead `nvidia-docker`!
@@ -48,6 +28,25 @@ detach without stopping container:
 
 stop the running docker container:
 `nvidia-docker stop <your_container_id>`
+
+### MANUAL METHOD:
+
+`git clone https://github.com/duckietown/gym-duckietown.git
+
+cd gym-duckietown/
+
+pip3 install -e .
+
+cd ..
+
+git clone https://github.com/Balint197/DeepDriveDucks
+
+cd DeepDriveDucks
+
+pip3 install tensorboard
+
+python -m learning.train`
+
 
 
 
