@@ -25,13 +25,13 @@ python -m learning.train
 ### DOCKER METHOD:
 
 if you dont have nvidia support, use `docker` instead `nvidia-docker`!
-\n
+__
 pull our docker image:
 `nvidia-docker pull artot/deepdriveducks`
-\n
+__
 check the pulled image:
 `nvidia-docker images`
-\n
+__
 start a container:
 `nvidia-docker run -t -d artot/deepdriveducks`  
 
