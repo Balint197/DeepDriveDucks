@@ -22,7 +22,7 @@ pip3 install tensorboard
 python -m learning.train
 
 
-##DOCKER METHOD:
+## DOCKER METHOD:
 
 if you dont have nvidia support, use `docker` instead `nvidia-docker`!
 
