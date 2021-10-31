@@ -21,6 +21,34 @@ pip3 install tensorboard
 
 python -m learning.train
 
+
+DOCKER METHOD:
+
+if you dont have nvidia support, use 'docker' instead 'nvidia-docker':
+nvidia-docker pull artot/duckietown_dagger_10_30
+
+check the pulled image:
+nvidia-docker images
+
+start a container:
+nvidia-docker run -t -d artot/duckietown_dagger_10_30:latest
+
+check running containers:
+nvidia-docker container ls
+
+enter into the container + bash terminal:
+nvidia-docker exec -it artot/duckietown_dagger_10_30:latest bash
+
+NOW YOU CAN EXECUTE THE TESTS, TRAINS, ETC.
+
+detach without stopping container:
+press Ctrl+P then Ctrl+Q
+
+stop the running docker container:
+docker stop artot/duckietown_dagger_10_30:latest 
+
+
+
 ---------------------------------------------------------------------
 
 A feladat: 
