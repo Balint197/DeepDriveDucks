@@ -11,7 +11,7 @@ pull our docker image:
 
 check the pulled image:
 `nvidia-docker images`
-__
+
 start a container:
 `nvidia-docker run -t -d artot/deepdriveducks`  
 
