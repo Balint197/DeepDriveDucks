@@ -22,9 +22,11 @@ pip3 install tensorboard
 python -m learning.train
 
 
-DOCKER METHOD:
+##DOCKER METHOD:
 
-if you dont have nvidia support, use 'docker' instead 'nvidia-docker':
+if you dont have nvidia support, use `docker` instead `nvidia-docker`!
+
+pull our docker image:
 `nvidia-docker pull artot/deepdriveducks`
 
 check the pulled image:
