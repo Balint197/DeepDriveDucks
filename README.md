@@ -49,10 +49,9 @@ detach without stopping container:
 stop the running docker container:
 `nvidia-docker stop <your_container_id>`
 
-### TRY OUR TRAINING:
+#### TRY OUR TRAINING:
 
-
- run the following for test training:
+run the following for test training:
 `xvfb-run -a -s "-screen 0 1400x900x24" python3 -m train_ray_tune`
 ---------------------------------------------------------------------
 
