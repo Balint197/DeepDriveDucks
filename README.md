@@ -56,7 +56,7 @@ TRY OUR TRAINING:
 test the original dagger training:
 `xvfb-run -a -s "-screen 0 1400x900x24" python3 -m challenge-aido_LF-baseline-dagger-pytorch.learning.train`
 
-test our method with raytune included:
+test our method with custom hyperparameter optimisation:
 `sudo xvfb-run -a -s "-screen 0 1400x900x24" python3 -m learning.train_tune`
 
 ---------------------------------------------------------------------
