@@ -53,7 +53,7 @@ stop the running docker container:
 
 
 
-###TRY OUR TRAINING:
+### TRY OUR TRAINING:
 
 test our method with custom hyperparameter optimisation:
 `xvfb-run -a -s "-screen 0 1400x900x24" python3 -m learning.train_tune`
@@ -66,7 +66,7 @@ test the original dagger training:
 
 ---------------------------------------------------------------------
 
-###A feladat: 
+### A feladat: 
 
 Önvezető autózás a Duckietown környezetben
 ---------------------------------------------------------------------
