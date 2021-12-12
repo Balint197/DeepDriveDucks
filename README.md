@@ -1,8 +1,8 @@
 # DeepD(r)iveDucks
 
-Budapest University of Technology and Economics
+This repository is for:
 
-Deep learning in practice 2021 (VITMAV45)
+Deep learning in practice 2021 (VITMAV45) homework at Budapest University of Technology and Economics
 
 Team members: Holló Áron, Tóth Tibor Áron, Hajnal Bálint
 
@@ -63,7 +63,7 @@ Links:
 
 
 ---------------------------------------------------------------------
-### INITIALIZE /DOCKER METHOD/:
+### 1a. INITIALIZE /DOCKER METHOD/:
 
 if you dont have nvidia support, use `docker` instead `nvidia-docker`!
 
@@ -82,7 +82,7 @@ check running containers:
 enter into the container + bash terminal:
 `nvidia-docker exec -it <your_container_id> bash`
 
-NOW YOU CAN EXECUTE THE TESTS, TRAINS, ETC.
+NOW YOU CAN EXECUTE THE TESTS, TRAINS, ETC. (DESCRIBED AT "2. TRY OUR TRAINING")
 
 detach without stopping container:
 `press Ctrl+P then Ctrl+Q`
@@ -90,7 +90,7 @@ detach without stopping container:
 stop the running docker container:
 `nvidia-docker stop <your_container_id>`
 
-### INITIALIZE /MANUAL METHOD/:
+### 1b. INITIALIZE /MANUAL METHOD/:
 
 `git clone https://github.com/duckietown/gym-duckietown.git`
 
@@ -109,7 +109,7 @@ stop the running docker container:
 `python -m learning.train` for training, and `python -m learning.train_tune` for hyperparameter optimisation
 
 
-### TRY OUR TRAINING:
+### 2. TRY OUR TRAINING:
 
 test our method with custom hyperparameter optimisation:
 `xvfb-run -a -s "-screen 0 1400x900x24" python3 -m learning.train_tune`
