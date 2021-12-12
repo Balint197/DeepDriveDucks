@@ -1,5 +1,6 @@
 # DeepDriveDucks
 Deep learning a gyakorlatban 2021
+
 Csapattagok: Holló Áron, Tóth Tibor Áron, Hajnal Bálint
 
 ---------------------------------------------------------------------
