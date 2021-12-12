@@ -32,7 +32,11 @@ detach without stopping container:
 
 stop the running docker container:
 `nvidia-docker stop <your_container_id>`
-  
+
+<br />
+<br />
+<br />
+
 ### 1b. INITIALIZE /MANUAL METHOD/:
 
 `git clone https://github.com/duckietown/gym-duckietown.git`
