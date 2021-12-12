@@ -100,7 +100,7 @@ Links:
 [6] https://github.com/duckietown/gym-duckietown
 
 
-###------------------------------------------Baseline algorithm and its authors---------------------------------------------------------------------
+### ------------------------------------------Baseline algorithm and its authors---------------------------------------------------------------------
 
 Baseline algorithm is from: https://github.com/duckietown/challenge-aido_LF-baseline-dagger-pytorch
 
