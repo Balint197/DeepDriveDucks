@@ -4,7 +4,7 @@ This repository is for:
 
 Deep learning in practice 2021 (VITMAV45) homework at Budapest University of Technology and Economics
 
-Team members: Holló Áron, Tóth Tibor Áron, Hajnal Bálint
+Team members: Holló Áron (BEECJN), Tóth Tibor Áron (IDT2RH), Hajnal Bálint (C0JOLO)
 
 Our documentation can be found [here](https://github.com/Balint197/DeepDriveDucks/blob/main/pdf.pdf)
 
