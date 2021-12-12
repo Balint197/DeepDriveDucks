@@ -34,8 +34,8 @@ stop the running docker container:
 `nvidia-docker stop <your_container_id>`
   
   
-  
-
+\ 
+\
 ### 1b. INITIALIZE /MANUAL METHOD/:
 
 `git clone https://github.com/duckietown/gym-duckietown.git`
