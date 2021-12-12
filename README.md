@@ -35,7 +35,7 @@ stop the running docker container:
 
 \
 \
-\
+
 
 ### 1b. INITIALIZE /MANUAL METHOD/:
 
