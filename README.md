@@ -1,4 +1,4 @@
-# DeepDriveDucks
+# DeepD(r)iveDucks
 
 Budapest University of Technology and Economics
 
