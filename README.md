@@ -94,7 +94,7 @@ Links:
 [5] https://docs.duckietown.org/daffy/AIDO/out/index.html
 [6] https://github.com/duckietown/gym-duckietown
 
-'''
+```
 ------------------------------------------Baseline algorithm and its authors---------------------------------------------------------------------
 
 Baseline algorithm is from: https://github.com/Balint197/challenge-aido_LF-baseline-dagger-pytorch
@@ -124,4 +124,4 @@ Baseline algorithm is from: https://github.com/Balint197/challenge-aido_LF-basel
   year={2018},
   publisher={IEEE}
 }
-'''
+```
