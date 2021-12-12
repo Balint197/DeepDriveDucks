@@ -9,7 +9,6 @@ Team members: Holló Áron, Tóth Tibor Áron, Hajnal Bálint
 ---------------------------------------------------------------------
 
 ## Task description: 
-
 Autonomous driving in the Duckietown environment
 ---------------------------------------------------------------------
 Goal: The team has to train and test a self-driving AI in the Duckietown
@@ -29,7 +28,6 @@ https://github.com/duckietown/gym-duckietown [6]
 
 
 ## A feladat kiírás: 
-
 Önvezető autózás a Duckietown környezetben
 ---------------------------------------------------------------------
 Cél: A téma során a csapatnak egy önvezető AI betanítását és
@@ -76,6 +74,8 @@ detach without stopping container:
 stop the running docker container:
 `nvidia-docker stop <your_container_id>`
 
+<br />
+
 ### 1b. INITIALIZE /MANUAL METHOD/:
 
 `git clone https://github.com/duckietown/gym-duckietown.git`
@@ -94,6 +94,7 @@ stop the running docker container:
 
 `python -m learning.train` for training, and `python -m learning.train_tune` for hyperparameter optimisation
 
+<br />
 
 ### 2. TRY OUR TRAINING:
 
