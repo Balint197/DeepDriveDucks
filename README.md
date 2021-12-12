@@ -25,7 +25,7 @@ check running containers:
 enter into the container + bash terminal:
 `nvidia-docker exec -it <your_container_id> bash`
 
-NOW YOU CAN EXECUTE THE TESTS, TRAINS, ETC. FROM 2.
+NOW YOU CAN EXECUTE THE TESTS, TRAINS, ETC. (DESCRIBED AT "2.TRY OUR TRAINING")
 
 detach without stopping container:
 `press Ctrl+P then Ctrl+Q`
