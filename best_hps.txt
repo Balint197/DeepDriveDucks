@@ -1,2 +1,0 @@
-episode_number:10 horizon:64 learning_rate:0.01 decay:0.6 batch_size:16
-It's average loss: 2.3756391424685717
