@@ -23,7 +23,7 @@ class InteractiveImitationLearning:
         episode : int
             number of episodes which is the number of collected trajectories
         """
-
+        self.last_losses = []  #modified save loss 
         self.environment = env
         self.teacher = teacher
         self.learner = learner
@@ -73,6 +73,7 @@ class InteractiveImitationLearning:
             self._sampling()
             self._optimize()  # episodic learning
             self._on_episode_done()
+            self.last_losses.append(self.learner.loss_array[-1]) #modified save loss 
 
     def _sampling(self):
         observation = self.environment.render_obs()

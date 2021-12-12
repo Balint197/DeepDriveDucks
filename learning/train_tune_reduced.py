@@ -58,11 +58,11 @@ def process_args(each_params, each_save):
 #            decay,
 #            batch_size
 #            ]
-opt_episode = [10,15]
-opt_horizon = [64, 128, 256]
+opt_episode = [15]
+opt_horizon = [128, 256]
 opt_lr = [1e-1, 1e-2, 1e-3, 1e-4]
 opt_decay = [0.5, 0.6, 0.7, 0.8]
-opt_batch_size = [16, 32]
+opt_batch_size = [32, 64]
 
 opt_params =[opt_episode, opt_horizon, opt_lr, opt_decay, opt_batch_size]
 opt_params_permutated = list(itertools.product(*opt_params))
@@ -81,7 +81,7 @@ for count, each_params in enumerate(opt_params_permutated):
         parser = process_args(each_params, each_save)
         input_shape = (120, 160)
         batch_size = each_params[4]
-        epochs = 10
+        epochs = 15
         #learning_rates = [1e-1, 1e-2, 1e-3, 1e-4, 1e-5]
         # decays
         #mixing_decays = [0.5, 0.6, 0.7, 0.8, 0.85, 0.9, 0.95]

@@ -40,6 +40,7 @@ class NeuralNetworkPolicy:
         dataset :
             object storing observation and labels from expert
         """
+        self.loss_array = []  #modified save loss 
         self._train_iteration = 0
         self._device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -172,6 +173,7 @@ class NeuralNetworkPolicy:
         epoch = kwargs.get("epoch")
         loss = kwargs.get("loss")
         self.writer.add_scalar("Loss/train/{}".format(self._train_iteration), loss, epoch)
+        self.loss_array.append(loss)  #modified save loss
 
     def _on_optimization_end(self):
         self._train_iteration += 1
