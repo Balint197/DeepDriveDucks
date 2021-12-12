@@ -53,7 +53,7 @@ stop the running docker container:
 
 
 
-TRY OUR TRAINING:
+###TRY OUR TRAINING:
 
 test our method with custom hyperparameter optimisation:
 `xvfb-run -a -s "-screen 0 1400x900x24" python3 -m learning.train_tune`
@@ -66,7 +66,7 @@ test the original dagger training:
 
 ---------------------------------------------------------------------
 
-A feladat: 
+###A feladat: 
 
 Önvezető autózás a Duckietown környezetben
 ---------------------------------------------------------------------
@@ -88,14 +88,19 @@ https://github.com/duckietown/gym-duckietown [6]
 Links:
 ------
 [1] https://docs.ray.io/en/latest/rllib.html
+
 [2] https://github.com/google/dopamine
+
 [3] https://github.com/deepmind/trfl
+
 [4] https://challenges.duckietown.org/v4/
+
 [5] https://docs.duckietown.org/daffy/AIDO/out/index.html
+
 [6] https://github.com/duckietown/gym-duckietown
 
 
-------------------------------------------Baseline algorithm and its authors---------------------------------------------------------------------
+###------------------------------------------Baseline algorithm and its authors---------------------------------------------------------------------
 
 Baseline algorithm is from: https://github.com/duckietown/challenge-aido_LF-baseline-dagger-pytorch
 
