@@ -47,7 +47,7 @@ stop the running docker container:
 
 `pip3 install tensorboard`
 
-`python -m learning.train`
+`python -m learning.train` for training, and `python -m learning.train_tune` for hyperparameter optimisation
 
 
 
