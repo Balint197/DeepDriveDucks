@@ -1,7 +1,8 @@
 # DeepDriveDucks
-Deep learning a gyakorlatban 2021
+Budapest University of Technology and Economics
+Deep learning in practice 2021 (VITMAV45)
 
-Csapattagok: Holló Áron, Tóth Tibor Áron, Hajnal Bálint
+Team members: Holló Áron, Tóth Tibor Áron, Hajnal Bálint
 
 ---------------------------------------------------------------------
 ### INITIALIZE /DOCKER METHOD/:
