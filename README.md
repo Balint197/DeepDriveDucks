@@ -35,7 +35,6 @@ stop the running docker container:
 
 <br />
 <br />
-<br />
 
 ### 1b. INITIALIZE /MANUAL METHOD/:
 
@@ -55,7 +54,8 @@ stop the running docker container:
 
 `python -m learning.train` for training, and `python -m learning.train_tune` for hyperparameter optimisation
 
-
+<br />
+<br />
 
 ### 2. TRY OUR TRAINING:
 
