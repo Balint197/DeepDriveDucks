@@ -66,7 +66,7 @@ test the original dagger training:
 
 ---------------------------------------------------------------------
 
-### A feladat: 
+## A feladat: 
 
 Önvezető autózás a Duckietown környezetben
 ---------------------------------------------------------------------
