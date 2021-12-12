@@ -94,11 +94,12 @@ Links:
 [5] https://docs.duckietown.org/daffy/AIDO/out/index.html
 [6] https://github.com/duckietown/gym-duckietown
 
-```
+
 ------------------------------------------Baseline algorithm and its authors---------------------------------------------------------------------
 
 Baseline algorithm is from: https://github.com/Balint197/challenge-aido_LF-baseline-dagger-pytorch
 
+```
 @phdthesis{diaz2018interactive,
   title={Interactive and Uncertainty-aware Imitation Learning: Theory and Applications},
   author={Diaz Cabrera, Manfred Ramon},
