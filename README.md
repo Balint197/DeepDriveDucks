@@ -8,7 +8,9 @@ Team members: Holló Áron, Tóth Tibor Áron, Hajnal Bálint
 
 ---------------------------------------------------------------------
 
-## Task description: Autonomous driving in the Duckietown environment
+## Task description: 
+
+Autonomous driving in the Duckietown environment
 
 Goal: The team has to train and test a self-driving AI in the Duckietown
 simulation environment. The Deep Learning or Deep Reinforcement Learning 
@@ -26,7 +28,9 @@ https://github.com/duckietown/gym-duckietown [6]
 
 
 
-## A feladat kiírás: Önvezető autózás a Duckietown környezetben
+## A feladat kiírás: 
+
+Önvezető autózás a Duckietown környezetben
 
 Cél: A téma során a csapatnak egy önvezető AI betanítását és
 tesztelését kell kiviteleznie a Duckietown szimulációs környezetben. A
