@@ -32,6 +32,9 @@ detach without stopping container:
 
 stop the running docker container:
 `nvidia-docker stop <your_container_id>`
+\
+\
+\
 
 ### 1b. INITIALIZE /MANUAL METHOD/:
 
@@ -50,8 +53,6 @@ stop the running docker container:
 `pip3 install tensorboard`
 
 `python -m learning.train` for training, and `python -m learning.train_tune` for hyperparameter optimisation
-
-
 
 
 
