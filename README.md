@@ -2,7 +2,7 @@
 
 Budapest University of Technology and Economics
 
-Deep learning in practice 2021 (VITMAV45)
+Deep learning in practice (VITMAV45) 2021 homework
 
 Team members: Holló Áron, Tóth Tibor Áron, Hajnal Bálint
 
