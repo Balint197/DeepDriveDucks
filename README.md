@@ -6,6 +6,8 @@ Deep learning in practice 2021 (VITMAV45) homework at Budapest University of Tec
 
 Team members: Holló Áron, Tóth Tibor Áron, Hajnal Bálint
 
+Our documentation can be found [here](https://github.com/Balint197/DeepDriveDucks/blob/main/pdf.pdf)
+
 ---------------------------------------------------------------------
 
 ## Task description: 
