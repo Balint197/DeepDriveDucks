@@ -1,9 +1,7 @@
 # DeepD(r)iveDucks
 This repository is for:
 
-Deep learning in practice (VITMAV45) 2021 homework
-
-at Budapest University of Technology and Economics
+Deep learning in practice (VITMAV45) 2021 homework at Budapest University of Technology and Economics
 
 Team members: Holló Áron, Tóth Tibor Áron, Hajnal Bálint
 
