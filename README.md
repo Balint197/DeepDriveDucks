@@ -6,7 +6,7 @@ Deep learning in practice (VITMAV45) 2021 homework at Budapest University of Tec
 Team members: Holló Áron, Tóth Tibor Áron, Hajnal Bálint
 
 ---------------------------------------------------------------------
-### INITIALIZE /DOCKER METHOD/:
+### 1a. INITIALIZE /DOCKER METHOD/:
 
 if you dont have nvidia support, use `docker` instead `nvidia-docker`!
 
@@ -25,7 +25,7 @@ check running containers:
 enter into the container + bash terminal:
 `nvidia-docker exec -it <your_container_id> bash`
 
-NOW YOU CAN EXECUTE THE TESTS, TRAINS, ETC.
+NOW YOU CAN EXECUTE THE TESTS, TRAINS, ETC. FROM 2.
 
 detach without stopping container:
 `press Ctrl+P then Ctrl+Q`
@@ -33,7 +33,7 @@ detach without stopping container:
 stop the running docker container:
 `nvidia-docker stop <your_container_id>`
 
-### INITIALIZE /MANUAL METHOD/:
+### 1b. INITIALIZE /MANUAL METHOD/:
 
 `git clone https://github.com/duckietown/gym-duckietown.git`
 
@@ -55,7 +55,7 @@ stop the running docker container:
 
 
 
-### TRY OUR TRAINING:
+### 2. TRY OUR TRAINING:
 
 test our method with custom hyperparameter optimisation:
 `xvfb-run -a -s "-screen 0 1400x900x24" python3 -m learning.train_tune`
