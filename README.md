@@ -103,13 +103,13 @@ stop the running docker container:
 ### 2. TRY OUR TRAINING:
 
 test our method with custom hyperparameter optimisation:
-`xvfb-run -a -s "-screen 0 1400x900x24" python3 -m learning.train_tune`
+`xvfb-run -a -s "-screen 0 1400x900x24" python3 -m DeepDriveDucks.learning.train_tune`
 
 test our method with custom hyperparameter optimisation with reduced scearch space:
-`xvfb-run -a -s "-screen 0 1400x900x24" python3 -m learning.train_tune_reduced`
+`xvfb-run -a -s "-screen 0 1400x900x24" python3 -m DeepDriveDucks.learning.train_tune_reduced`
 
 test the original dagger training:
-`xvfb-run -a -s "-screen 0 1400x900x24" python3 -m learning.train`
+`xvfb-run -a -s "-screen 0 1400x900x24" python3 -m DeepDriveDucks.learning.train`
 
 ---------------------------------------------------------------------
 
