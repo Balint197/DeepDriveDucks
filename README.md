@@ -4,7 +4,7 @@ Deep learning a gyakorlatban 2021
 Csapattagok: Holló Áron, Tóth Tibor Áron, Hajnal Bálint
 
 ---------------------------------------------------------------------
-### DOCKER METHOD:
+### INITIALIZE /DOCKER METHOD/:
 
 if you dont have nvidia support, use `docker` instead `nvidia-docker`!
 
@@ -31,7 +31,7 @@ detach without stopping container:
 stop the running docker container:
 `nvidia-docker stop <your_container_id>`
 
-### MANUAL METHOD:
+### INITIALIZE /MANUAL METHOD/:
 
 `git clone https://github.com/duckietown/gym-duckietown.git`
 
@@ -100,9 +100,7 @@ Links:
 [6] https://github.com/duckietown/gym-duckietown
 
 
--------------------------------------------------------------------
-
-### Baseline algorithm and its authors
+###------------------------------------------Baseline algorithm and its authors---------------------------------------------------------------------
 
 Baseline algorithm is from: https://github.com/duckietown/challenge-aido_LF-baseline-dagger-pytorch
 
