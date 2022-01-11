@@ -8,6 +8,8 @@ Team members: Holló Áron (BEECJN), Tóth Tibor Áron (IDT2RH), Hajnal Bálint 
 
 Our documentation can be found [here](https://github.com/Balint197/DeepDriveDucks/blob/main/pdf.pdf)
 
+Our demonstration video is available on the following link: https://youtu.be/hVvkWr-23Ic
+
 ---------------------------------------------------------------------
 
 ## Task description: 
